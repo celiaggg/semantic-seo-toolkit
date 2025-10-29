@@ -2,7 +2,7 @@
 
 A comprehensive Python framework for implementing Elastic's semantic SEO strategy, transforming websites into semantically optimized knowledge hubs for LLMs and semantic search engines.
 
-## 🎯 Project Goals
+## Project Goals
 
 This project implements a complete semantic SEO pipeline that:
 
@@ -12,7 +12,7 @@ This project implements a complete semantic SEO pipeline that:
 - **Ensures machine-readable, retrievable, and contextually relevant content** for LLM recommendation and citation
 - **Positions organizations as topical authorities** in their key domains
 
-## 🏗️ Architecture Overview
+##Architecture Overview
 
 The project is organized into 8 stages that progress from persona research to content optimization:
 
@@ -61,7 +61,7 @@ The project is organized into 8 stages that progress from persona research to co
 - **topical_authority/**: Calculate site focus and topical coherence
 - **semantic_relevance_scoring/**: Score pages against entity map
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -167,7 +167,7 @@ Query Classification → Gap Analysis → Content Recommendations →
 Content Audit → Continuous Optimization
 ```
 
-## 🛠️ Dependencies
+##  Dependencies
 
 - **NLP & ML**: spaCy, transformers, sentence-transformers, scikit-learn
 - **Search & Vector**: Elasticsearch, FAISS, Annoy
@@ -176,7 +176,7 @@ Content Audit → Continuous Optimization
 - **Web Scraping**: BeautifulSoup, Scrapy, Selenium
 - **Data Sources**: BigQuery, Google Search Console, SEMrush
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -184,17 +184,17 @@ Content Audit → Continuous Optimization
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 - **Documentation**: Check the `docs/` directory
 - **Issues**: Open an issue on GitHub
 - **Discussions**: Use GitHub Discussions for questions
 
-## 🗺️ Roadmap
+##  Roadmap
 
 This project implements Elastic's semantic SEO strategy as outlined in the ROADMAP.md file. The implementation follows the 8-stage approach:
 
