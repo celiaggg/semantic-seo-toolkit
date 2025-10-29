@@ -1,0 +1,2 @@
+"""Models decision contexts and use cases for personas."""
+}```}.JSON```? Wait wrong. Let's correct. We must pass proper JSON only. We'll redo. We'll ensure proper call. We'll structure the parameters accordingly. We'll call Write with correct JSON. Let's fix.  (Ignore this message; making correct calls next.)

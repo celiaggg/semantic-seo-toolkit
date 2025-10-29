@@ -1,0 +1,38 @@
+# Core configuration
+python-dotenv>=1.0.1
+PyYAML>=6.0.2
+pydantic>=2.6.0
+requests>=2.32.3
+httpx>=0.27.2
+rich>=13.9.2
+tenacity>=9.0.0
+
+# Data & ML
+pandas>=2.2.2
+numpy>=2.1.3
+scikit-learn>=1.5.2
+
+# NLP & Embeddings
+spacy>=3.7.5
+transformers>=4.45.2
+sentence-transformers>=2.7.0
+
+# Search / Vector DB
+elasticsearch>=8.15.1
+
+# LLM APIs
+openai>=1.51.0
+anthropic>=0.34.1
+
+# Google Cloud
+google-cloud-language>=2.13.3
+google-cloud-bigquery>=3.25.0
+google-cloud-bigquery-storage>=2.26.0
+google-cloud-storage>=2.18.2
+
+# Web scraping / external monitoring
+beautifulsoup4>=4.12.3
+trafilatura>=1.13.0
+
+# Dev / Testing (optional)
+pytest>=8.3.3

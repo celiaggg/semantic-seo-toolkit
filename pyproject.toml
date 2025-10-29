@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-seo"
+version = "0.1.0"
+description = "Modular toolkit for semantic SEO and LLM optimization"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["seo", "semantic", "llm", "elasticsearch", "embeddings", "rag"]
+authors = [
+  { name = "Your Team", email = "team@example.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+# Keep runtime deps light here; full set is in requirements.txt
+# Users can also install extras for convenience
+
+[project.optional-dependencies]
+nlp = ["spacy", "transformers", "sentence-transformers"]
+llm = ["openai>=1.51.0", "anthropic>=0.34.1"]
+google = [
+  "google-cloud-language",
+  "google-cloud-bigquery",
+  "google-cloud-bigquery-storage",
+  "google-cloud-storage",
+]
+search = ["elasticsearch>=8"]
+data = ["pandas", "numpy", "scikit-learn"]
+web = ["trafilatura", "beautifulsoup4", "httpx", "requests"]
+dev = ["pytest", "mypy", "ruff", "black", "types-requests", "types-PyYAML"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["semantic_seo*"]
+
+[tool.setuptools.package-data]
+semantic_seo = ["py.typed"]

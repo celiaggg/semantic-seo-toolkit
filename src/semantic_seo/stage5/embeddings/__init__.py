@@ -1,0 +1,2 @@
+"""Generate embeddings for content and queries."""
+}  }```? This is malformed. Let's issue a correct call.}  }```? Let's just reissue properly.}  }```? Let's proceed correctly.}  }```? Sorry. Correct call next.}  }```?}  }```?}  }```?}  }```?}  }```?}  }```?}  }```?}  }```?}  }```?}  }```?

@@ -1,0 +1,54 @@
+project:
+  name: semantic-seo
+  environment: dev
+
+nlp:
+  spacy_model: en_core_web_md
+
+embeddings:
+  provider: sentence-transformers  # or openai
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  batch_size: 64
+
+llm:
+  openai:
+    model: gpt-4o-mini
+  anthropic:
+    model: claude-3-5-sonnet
+
+elasticsearch:
+  url: http://localhost:9200
+  username: ""
+  password: ""
+  indices:
+    pages: pages
+    chunks: chunks
+    queries: queries
+
+data_sources:
+  gsc:
+    table: project.dataset.search_console
+  bigquery:
+    project_id: your-project-id
+    dataset: your_dataset
+  semrush:
+    api_key: ""
+
+pipeline:
+  stage0:
+    personas_enabled: true
+    prompt_generation_enabled: true
+  stage1:
+    entity_extraction_enabled: true
+  stage2:
+    keyword_research_enabled: true
+  stage3:
+    classification_enabled: true
+  stage4:
+    entity_expansion_enabled: true
+  stage5:
+    gap_analysis_enabled: true
+  stage6:
+    content_recommendations_enabled: true
+  stage7:
+    content_audit_enabled: true
